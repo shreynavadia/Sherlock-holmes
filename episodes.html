@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sherlock Holmes</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+    <link rel="stylesheet" href="./episodes.css">
+    <link rel="stylesheet" href="./menustyle.css">
+
+
+</head>
+
+<body>
+    <header class="cd-header">
+        <div class="header-wrapper">
+            <div class="logo-wrap">
+                <a href="index.html" class="hover-target"> <span>Sherlock</span> <br> 221B Baker Street</a>
+            </div>
+            <div class="nav-but-wrap">
+                <div class="menu-icon hover-target">
+                    <span class="menu-icon__line menu-icon__line-left"></span>
+                    <span class="menu-icon__line"></span>
+                    <span class="menu-icon__line menu-icon__line-right"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav">
+        <div class="nav__content">
+            <ul class="nav__list">
+                <li class="nav__list-item active-nav"><a href="index.html" class="hover-target">home</a></li>
+                <li class="nav__list-item"><a href="cast.html" class="hover-target">Cast</a></li>
+                <li class="nav__list-item"><a href="episodes.html" class="hover-target">Episodes</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class='cursor' id="cursor"></div>
+    <div class='cursor2' id="cursor2"></div>
+    <div class='cursor3' id="cursor3"></div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="./menu.js"></script>
+
+
+    <div class="wrapper">
+
+
+
+        <div class="content">
+            <div class="bg-shape">
+                <img src="images\sherlockk.png" alt="">
+            </div>
+
+
+            <div class="product-slider">
+                <button class="prev disabled">
+        <span class="icon">
+          <svg class="icon icon-arrow-right"><use xlink:href="#icon-arrow-left"></use></svg>
+        </span>
+      </button>
+                <button class="next">
+        <span class="icon">
+          <svg class="icon icon-arrow-right"><use xlink:href="#icon-arrow-right"></use></svg>
+        </span>
+      </button>
+
+
+                <div class="product-slider__wrp swiper-wrapper">
+                    <div class="product-slider__item swiper-slide" data-target="img4">
+                        <div class="product-slider__card">
+
+                            <!--background blue image-->
+                            <img src="eimages\bg.jpg" alt="sherlock" class="product-slider__cover">
+
+
+                            <div class="product-slider__content">
+                                <h1 class="product-slider__title">
+                                    Series 1 Episode 1
+                                    <br> A Study in Pink
+                                </h1>
+
+                                <span class="product-slider__price"></span>
+                                <div class="product-ctr">
+                                    <div class="product-labels">
+
+                                        <div class="product-labels__group">
+                                            <label class="product-labels__item">
+                                             <b> A war hero, invalided home from Afghanistan, meets a strange but charismatic genius who is looking for a flatmate - it is London in 2010, and Dr Watson and Sherlock Holmes are meeting for the first time. A string of impossible suicides has Scotland Yard baffled - and only one man can help.</b>
+                                            
+
+                                        </div>
+
+                                    </div>
+
+                               <!--    <span class="hr-vertical"></span> -->  
+
+                                    <div class="product-inf">
+                                        <div class="product-inf__percent">
+                                       
+                                        </div>
+   
+                                    </div>
+
+                                </div>
+
+                                <div class="product-slider__bottom">
+ 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-slider__item swiper-slide" data-target="img1">
+                     <div class="product-slider__card">
+
+                         <!--background blue image-->
+                         <img src="eimages\bg1.jpg" alt="sherlock" class="product-slider__cover">
+
+
+                         <div class="product-slider__content">
+                             <h1 class="product-slider__title">
+                              Series 1 Episode 2
+                                    <br> The Blind Banker
+                             </h1>
+
+                             <span class="product-slider__price"></span>
+                             <div class="product-ctr">
+                                 <div class="product-labels">
+
+                                     <div class="product-labels__group">
+                                         <label class="product-labels__item">
+                                        
+                                          A mysterious cipher is being scrawled on walls around London, and the first person to see it dies within hours of reading it. Can Sherlock and John solve the case?
+                                     </div>
+
+                                 </div>
+
+                            <!--    <span class="hr-vertical"></span> -->  
+
+                                 <div class="product-inf">
+                                     <div class="product-inf__percent">
+                                    
+                                     </div>
+
+                                 </div>
+
+                             </div>
+
+                             <div class="product-slider__bottom">
+
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class="product-slider__item swiper-slide" data-target="img2">
+                  <div class="product-slider__card">
+
+                      <!--background blue image-->
+                      <img src="eimages\bg2.jpg" alt="sherlock" class="product-slider__cover">
+
+
+                      <div class="product-slider__content">
+                          <h1 class="product-slider__title">
+                           Series 1 Episode 3
+                           <br> The Great Game
+                          </h1>
+
+                          <span class="product-slider__price"></span>
+                          <div class="product-ctr">
+                              <div class="product-labels">
+
+                                  <div class="product-labels__group">
+                                      <label class="product-labels__item">
+                                       A strange clue in an empty room, a blood-soaked car, a priceless Old Master, a deranged bomber. With the clock ticking, the curtain rises on a battle of wits between Sherlock, John and the shadowy stranger who seems to know all the answers...
+
+                                  </div>
+
+                              </div>
+
+                         <!--    <span class="hr-vertical"></span> -->  
+
+                              <div class="product-inf">
+                                  <div class="product-inf__percent">
+                                 
+                                  </div>
+
+                              </div>
+
+                          </div>
+
+                          <div class="product-slider__bottom">
+
+                          </div>
+                      </div>
+                  </div>
+                 </div>
+
+                 <div class="product-slider__item swiper-slide" data-target="img3">
+                  <div class="product-slider__card">
+
+                      <!--background blue image-->
+                      <img src="eimages\bg3.jpg" alt="sherlock" class="product-slider__cover">
+
+
+                      <div class="product-slider__content">
+                          <h1 class="product-slider__title">
+                           Series 2 Episode 1
+                           <br> A Scandal in Belgravia
+                          </h1>
+
+                          <span class="product-slider__price"></span>
+                          <div class="product-ctr">
+                              <div class="product-labels">
+
+                                  <div class="product-labels__group">
+                                      <label class="product-labels__item">
+
+                                       A case of blackmail threatens to topple the monarchy itself, but soon Sherlock and John discover there is even more to it than that. They find themselves battling international terrorism, rogue CIA agents and a secret conspiracy involving the British government.
+
+                                 
+                                      
+                                  </div>
+
+                              </div>
+
+                         <!--    <span class="hr-vertical"></span> -->  
+
+                              <div class="product-inf">
+                                  <div class="product-inf__percent">
+                                 
+                                  </div>
+
+                              </div>
+
+                          </div>
+
+                          <div class="product-slider__bottom">
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="product-slider__item swiper-slide" data-target="img5">
+               <div class="product-slider__card">
+
+                   <!--background blue image-->
+                   <img src="eimages\bg4.jpg" alt="sherlock" class="product-slider__cover">
+
+
+                   <div class="product-slider__content">
+                       <h1 class="product-slider__title">
+                        Series 2 Episode 2
+                        <br> The Hounds of Baskerville
+                       </h1>
+
+                       <span class="product-slider__price"></span>
+                       <div class="product-ctr">
+                           <div class="product-labels">
+
+                               <div class="product-labels__group">
+                                   <label class="product-labels__item">
+                                    Something terrible has happened to Henry Knight - Sherlock and John investigate the truth about the monstrous creature which apparently killed their client's father. A hound from hell? What seems like fantasy in Baker Street is a very different prospect in the ultra-secret army base that looms over Dartmoor.
+
+                               </div>
+
+                           </div>
+
+                      <!--    <span class="hr-vertical"></span> -->  
+
+                           <div class="product-inf">
+                               <div class="product-inf__percent">
+                              
+                               </div>
+
+                           </div>
+
+                       </div>
+
+                       <div class="product-slider__bottom">
+
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="product-slider__item swiper-slide" data-target="img6">
+            <div class="product-slider__card">
+
+                <!--background blue image-->
+                <img src="eimages\bg5.jpg" alt="sherlock" class="product-slider__cover">
+
+
+                <div class="product-slider__content">
+                    <h1 class="product-slider__title">
+                     Series 2 Episode 3
+                     <br> The Reichenbach Fall
+                    </h1>
+
+                    <span class="product-slider__price"></span>
+                    <div class="product-ctr">
+                        <div class="product-labels">
+
+                            <div class="product-labels__group">
+                                <label class="product-labels__item">
+                                 James Moriarty possesses the greatest criminal mind that the world has ever seen. Sherlock and John knew he wouldn't stay hidden for long. But even they never guessed the sheer scale and audacity of the crime that would propel Moriarty back into the headlines. 
+
+                            </div>
+
+                        </div>
+
+                   <!--    <span class="hr-vertical"></span> -->  
+
+                        <div class="product-inf">
+                            <div class="product-inf__percent">
+                           
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="product-slider__bottom">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-slider__item swiper-slide" data-target="img7">
+         <div class="product-slider__card">
+
+             <!--background blue image-->
+             <img src="eimages\bg6.jpg" alt="sherlock" class="product-slider__cover">
+
+
+             <div class="product-slider__content">
+                 <h1 class="product-slider__title">
+                  Series 3 Episode 1
+                  <br> The Empty Hearse
+                 </h1>
+
+                 <span class="product-slider__price"></span>
+                 <div class="product-ctr">
+                     <div class="product-labels">
+
+                         <div class="product-labels__group">
+                             <label class="product-labels__item">
+                             
+                              'Just one more miracle, Sherlock. Stop being dead.' Two years after the devastating events of The Reichenbach Fall, Dr John Watson has got on with his life. New horizons, romance and a comforting domestic future beckon.
+                         </div>
+
+                     </div>
+
+                <!--    <span class="hr-vertical"></span> -->  
+
+                     <div class="product-inf">
+                         <div class="product-inf__percent">
+                        
+                         </div>
+
+                     </div>
+
+                 </div>
+
+                 <div class="product-slider__bottom">
+
+                 </div>
+             </div>
+         </div>
+     </div>
+
+     <div class="product-slider__item swiper-slide" data-target="img8">
+      <div class="product-slider__card">
+
+          <!--background blue image-->
+          <img src="eimages\bg7.jpg" alt="sherlock" class="product-slider__cover">
+
+
+          <div class="product-slider__content">
+              <h1 class="product-slider__title">
+                Series 3 Episode 2
+                <br> The Sign of Three
+              </h1>
+
+              <span class="product-slider__price"></span>
+              <div class="product-ctr">
+                  <div class="product-labels">
+
+                      <div class="product-labels__group">
+                          <label class="product-labels__item">
+                            Contemporary crime drama. Sherlock faces his biggest challenge of all - delivering a best man's speech on John's wedding day.
+
+                      </div>
+
+                  </div>
+
+             <!--    <span class="hr-vertical"></span> -->  
+
+                  <div class="product-inf">
+                      <div class="product-inf__percent">
+                     
+                      </div>
+
+                  </div>
+
+              </div>
+
+              <div class="product-slider__bottom">
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="product-slider__item swiper-slide" data-target="img9">
+    <div class="product-slider__card">
+
+        <!--background blue image-->
+        <img src="eimages\bg8.jpg" alt="sherlock" class="product-slider__cover">
+
+
+        <div class="product-slider__content">
+            <h1 class="product-slider__title">
+              Series 3 Episode 3
+              <br> His Last Vow
+            </h1>
+
+            <span class="product-slider__price"></span>
+            <div class="product-ctr">
+                <div class="product-labels">
+
+                    <div class="product-labels__group">
+                        <label class="product-labels__item">
+                            Sherlock Holmes encounters Charles Augustus Magnussen, the one man he truly hates, through a case of stolen letters. How will he tackle an enemy who specialises in blackmail and knows the personal weakness of every eminent person in the western world?
+
+                    </div>
+
+                </div>
+
+           <!--    <span class="hr-vertical"></span> -->  
+
+                <div class="product-inf">
+                    <div class="product-inf__percent">
+                   
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="product-slider__bottom">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-slider__item swiper-slide" data-target="img10">
+    <div class="product-slider__card">
+
+        <!--background blue image-->
+        <img src="eimages\bg9.jpg" alt="sherlock" class="product-slider__cover">
+
+
+        <div class="product-slider__content">
+            <h1 class="product-slider__title" style="font-size:33px;">
+                The Abominable Bride <br>
+                
+                 Specials
+              <br> 
+            </h1>
+
+            <span class="product-slider__price"></span>
+            <div class="product-ctr">
+                <div class="product-labels">
+
+                    <div class="product-labels__group">
+                        <label class="product-labels__item">
+                            "Dr John Watson, meet Mr Sherlock Holmes."
+<br>
+We've been here before - but what if this wasn't the modern day but the late Victorian period? What if the world's most famous consulting detective and his best friend lived in a Baker Street of steam trains, hansom cabs, top hats and frock coats? Welcome to Sherlock in 1895!
+
+                    </div>
+
+                </div>
+
+           <!--    <span class="hr-vertical"></span> -->  
+
+                <div class="product-inf">
+                    <div class="product-inf__percent">
+                   
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="product-slider__bottom">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-slider__item swiper-slide" data-target="img11">
+    <div class="product-slider__card">
+
+        <!--background blue image-->
+        <img src="eimages\bg10.jpg" alt="sherlock" class="product-slider__cover">
+
+
+        <div class="product-slider__content">
+            <h1 class="product-slider__title" style="font-size:33px;">
+                Series 4 Episode 1
+              <br> The Six Thatchers
+              <br> 
+            </h1>
+
+            <span class="product-slider__price"></span>
+            <div class="product-ctr">
+                <div class="product-labels">
+
+                    <div class="product-labels__group">
+                        <label class="product-labels__item">
+                          
+
+Sherlock waits to see where Moriarty will make his posthumous move. One mysterious case in particular baffles Scotland Yard, but Sherlock is more interested in a seemingly trivial detail. Why is someone destroying images of the late prime minister Margaret Thatcher? Is there a madman on the loose? Or is there a much darker purpose at work? Something with its roots deep in Mary Watson's past...
+
+                    </div>
+
+                </div>
+
+           <!--    <span class="hr-vertical"></span> -->  
+
+                <div class="product-inf">
+                    <div class="product-inf__percent">
+                   
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="product-slider__bottom">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="product-slider__item swiper-slide" data-target="img12">
+    <div class="product-slider__card">
+
+        <!--background blue image-->
+        <img src="eimages\bg11.jpg" alt="sherlock" class="product-slider__cover">
+
+
+        <div class="product-slider__content">
+            <h1 class="product-slider__title" style="font-size:33px;">
+                Series 4 Episode 2
+              <br> The Lying Detective
+              <br> 
+            </h1>
+
+            <span class="product-slider__price"></span>
+            <div class="product-ctr">
+                <div class="product-labels">
+
+                    <div class="product-labels__group">
+                        <label class="product-labels__item">
+                            Sherlock faces perhaps the most chilling enemy of his long career: the powerful and seemingly unassailable Culverton Smith - a man with a very dark secret indeed.   
+
+
+
+                    </div>
+
+                </div>
+
+           <!--    <span class="hr-vertical"></span> -->  
+
+                <div class="product-inf">
+                    <div class="product-inf__percent">
+                   
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="product-slider__bottom">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="product-slider__item swiper-slide" data-target="img13">
+    <div class="product-slider__card">
+
+        <!--background blue image-->
+        <img src="eimages\bg13.jpg" alt="sherlock" class="product-slider__cover">
+
+
+        <div class="product-slider__content">
+            <h1 class="product-slider__title" style="font-size:33px;">
+                Series 4 Episode 3
+              <br> The Final Problem
+              <br> 
+            </h1>
+
+            <span class="product-slider__price"></span>
+            <div class="product-ctr">
+                <div class="product-labels">
+
+                    <div class="product-labels__group">
+                        <label class="product-labels__item">
+                            In the final episode of this series, written by Mark Gatiss and Steven Moffat, long-buried secrets finally catch up with the Baker Street duo. Someone has been playing a very long game indeed and, alone and defenceless, Sherlock and Dr Watson face their greatest ever challenge. Is the game finally over? 
+
+
+
+                    </div>
+
+                </div>
+
+           <!--    <span class="hr-vertical"></span> -->  
+
+                <div class="product-inf">
+                    <div class="product-inf__percent">
+                   
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="product-slider__bottom">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <svg class="hidden" hidden>
+
+  <symbol id="icon-arrow-left" viewBox="0 0 32 32">
+    <path d="M0.704 17.696l9.856 9.856c0.896 0.896 2.432 0.896 3.328 0s0.896-2.432 0-3.328l-5.792-5.856h21.568c1.312 0 2.368-1.056 2.368-2.368s-1.056-2.368-2.368-2.368h-21.568l5.824-5.824c0.896-0.896 0.896-2.432 0-3.328-0.48-0.48-1.088-0.704-1.696-0.704s-1.216 0.224-1.696 0.704l-9.824 9.824c-0.448 0.448-0.704 1.056-0.704 1.696s0.224 1.248 0.704 1.696z"></path>
+
+  </symbol>
+  <symbol id="icon-arrow-right" viewBox="0 0 32 32">
+    <path d="M31.296 14.336l-9.888-9.888c-0.896-0.896-2.432-0.896-3.328 0s-0.896 2.432 0 3.328l5.824 5.856h-21.536c-1.312 0-2.368 1.056-2.368 2.368s1.056 2.368 2.368 2.368h21.568l-5.856 5.824c-0.896 0.896-0.896 2.432 0 3.328 0.48 0.48 1.088 0.704 1.696 0.704s1.216-0.224 1.696-0.704l9.824-9.824c0.448-0.448 0.704-1.056 0.704-1.696s-0.224-1.248-0.704-1.664z"></path>
+  </symbol>
+
+
+</svg>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
